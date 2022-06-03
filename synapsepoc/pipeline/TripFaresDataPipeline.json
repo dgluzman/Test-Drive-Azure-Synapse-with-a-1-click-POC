@@ -469,11 +469,11 @@
 			},
 			"SQLDedicatedPoolName": {
 				"type": "string",
-				"defaultValue": "glzgua4dkyo4exrwpocws1"
+				"defaultValue": "glzgua4dkyo4exrwpocws1p1 "
 			},
 			"SQLLoginUsername": {
 				"type": "string",
-				"defaultValue": "glzgua4dkyo4exrwpocws1.sql.azuresynapse.net"
+				"defaultValue": "dgluzmanazure1"
 			},
 			"KeyVaultName": {
 				"type": "string",
