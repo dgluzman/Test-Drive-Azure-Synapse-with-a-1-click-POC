@@ -473,7 +473,7 @@
 			},
 			"SQLLoginUsername": {
 				"type": "string",
-				"defaultValue": "dgluzmanazure1"
+				"defaultValue": "glzgua4dkyo4exrwpocws1.sql.azuresynapse.net"
 			},
 			"KeyVaultName": {
 				"type": "string",
