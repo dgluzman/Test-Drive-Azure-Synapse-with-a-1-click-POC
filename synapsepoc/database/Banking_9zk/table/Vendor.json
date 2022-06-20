@@ -16,10 +16,6 @@
 				{
 					"Name": "VendorId",
 					"Description": "The unique identifier of a Vendor.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "VendorId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "long",
 						"IsComplexType": false,
@@ -27,15 +23,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "long"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "VendorId"
 					}
 				},
 				{
 					"Name": "VendorName",
 					"Description": "The business name of the Vendor.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "VendorName"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -44,15 +40,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "VendorName"
 					}
 				},
 				{
 					"Name": "VendorNote",
 					"Description": "A narrative, description or additional detail regarding the associated Vendor.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "VendorNote"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -61,15 +57,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "VendorNote"
 					}
 				},
 				{
 					"Name": "VendorTypeId",
 					"Description": "The unique identifier of a Vendor Type.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "VendorTypeId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -77,15 +73,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "VendorTypeId"
 					}
 				},
 				{
 					"Name": "VendorDateOfEstablishment",
 					"Description": "The date that the Vendor was established.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "VendorDateOfEstablishment"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "date",
 						"IsComplexType": false,
@@ -94,15 +90,15 @@
 							"DateFormat": "YYYY-MM-DD",
 							"HIVE_TYPE_STRING": "date"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "VendorDateOfEstablishment"
 					}
 				},
 				{
 					"Name": "StateOfVendorEstablishment",
 					"Description": "The state in which the Vendor was established.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "StateOfVendorEstablishment"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -111,15 +107,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "StateOfVendorEstablishment"
 					}
 				},
 				{
 					"Name": "CountryOfVendorEstablishment",
 					"Description": "The country in which the Vendor was established.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "CountryOfVendorEstablishment"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -128,15 +124,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "CountryOfVendorEstablishment"
 					}
 				},
 				{
 					"Name": "StateOfVendorResidence",
 					"Description": "The state in which the Vendor has it's primary business or official residence.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "StateOfVendorResidence"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -145,15 +141,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "StateOfVendorResidence"
 					}
 				},
 				{
 					"Name": "CountryOfVendorResidence",
 					"Description": "The country in which the Vendor has it's primary business or official residence.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "CountryOfVendorResidence"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -162,15 +158,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "CountryOfVendorResidence"
 					}
 				},
 				{
 					"Name": "FirstDateOfOperation",
 					"Description": "The first date that the Vendor entered into normal business or operations.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "FirstDateOfOperation"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "date",
 						"IsComplexType": false,
@@ -179,15 +175,15 @@
 							"DateFormat": "YYYY-MM-DD",
 							"HIVE_TYPE_STRING": "date"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "FirstDateOfOperation"
 					}
 				},
 				{
 					"Name": "CurrentManagementFirstControlDate",
 					"Description": "The date that current management assumed control of the Vendor's normal business operations.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "CurrentManagementFirstControlDate"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "date",
 						"IsComplexType": false,
@@ -196,15 +192,15 @@
 							"DateFormat": "YYYY-MM-DD",
 							"HIVE_TYPE_STRING": "date"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "CurrentManagementFirstControlDate"
 					}
 				},
 				{
 					"Name": "StockExchangeName",
 					"Description": "The name of the stock exchange that the security is listed upon.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "StockExchangeName"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -213,15 +209,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "StockExchangeName"
 					}
 				},
 				{
 					"Name": "ListedSecuritySymbol",
 					"Description": "The security symbol of the Vendor, if any.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "ListedSecuritySymbol"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -230,15 +226,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "ListedSecuritySymbol"
 					}
 				},
 				{
 					"Name": "BankruptcyIndicator",
 					"Description": "Indicates that bankruptcy proceeding exist for the Vendor customer, which is a proceeding under the U.S. Bankruptcy Code, in which either a debtor files a bankruptcy petition and voluntarily seeks protection from creditors, or creditors file a bankruptcy petition against a debtor to force the debtor to pay debts owed to them.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "BankruptcyIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -246,15 +242,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "BankruptcyIndicator"
 					}
 				},
 				{
 					"Name": "SmallBusinessIndicator",
 					"Description": "Indicates that business is a small business by SBA guidelines.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "SmallBusinessIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -262,15 +258,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "SmallBusinessIndicator"
 					}
 				},
 				{
 					"Name": "ManufacturingIndicator",
 					"Description": "Notes manufacturing operations occur at site.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "ManufacturingIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -278,15 +274,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "ManufacturingIndicator"
 					}
 				},
 				{
 					"Name": "ForeignOwnedIndicator",
 					"Description": "Identifies companies with parent outside of the U.S.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "ForeignOwnedIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -294,15 +290,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "ForeignOwnedIndicator"
 					}
 				},
 				{
 					"Name": "DunsNumber",
 					"Description": "The DUNS number is a nine-digit number issued by Dun & Bradstreet and assigned to each business location in the D&B database having a unique, separate, and distinct operation to businesses for the purpose of identifying them. The number as issued is random and the digits apparently have no significance as to their issuance.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunsNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -312,15 +308,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunsNumber"
 					}
 				},
 				{
 					"Name": "DunBradstreetSingleLocationSubsidiary",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetSingleLocationSubsidiary"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -328,15 +324,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetSingleLocationSubsidiary"
 					}
 				},
 				{
 					"Name": "DunBradstreetHeadquarters",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetHeadquarters"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -344,15 +340,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetHeadquarters"
 					}
 				},
 				{
 					"Name": "DunBradstreetBranch",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetBranch"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -360,15 +356,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetBranch"
 					}
 				},
 				{
 					"Name": "DunBradstreetDivision",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetDivision"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -376,15 +372,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetDivision"
 					}
 				},
 				{
 					"Name": "DunBradstreetSubsidiary",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetSubsidiary"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -392,15 +388,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetSubsidiary"
 					}
 				},
 				{
 					"Name": "DunBradstreetParent",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetParent"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -408,15 +404,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetParent"
 					}
 				},
 				{
 					"Name": "DunBradstreetUltimate",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetUltimate"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -424,15 +420,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetUltimate"
 					}
 				},
 				{
 					"Name": "DunBradstreetGlobalUltimate",
 					"Description": "There are eight (8) types of business relationships defined in D&B WorldBase:\n\nSingle Location Subsidiary\n\nA single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled \"single location\" and is not part of a corporate family.\n\nHeadquarters\n\nA headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.\n\nBranch\n\nA branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.\n\nDivision\n\nA division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.\n\nSubsidiary\n\nA subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.\n\nParent\n\nA parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.\n\nDomestic Ultimate\n\nThe Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.\n\nGlobal Ultimate\n\nThe Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "DunBradstreetGlobalUltimate"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -440,15 +436,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "DunBradstreetGlobalUltimate"
 					}
 				},
 				{
 					"Name": "LegalEntityFormId",
 					"Description": "The unique identifier of the Legal Entity Form.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "LegalEntityFormId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -456,15 +452,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "LegalEntityFormId"
 					}
 				},
 				{
 					"Name": "ResponsibilityCenterId",
 					"Description": "The unique identifier of a Responsibility Center.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "ResponsibilityCenterId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -472,15 +468,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "ResponsibilityCenterId"
 					}
 				},
 				{
 					"Name": "LedgerId",
 					"Description": "The unique identifier of a Ledger.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "LedgerId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -488,15 +484,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "LedgerId"
 					}
 				},
 				{
 					"Name": "LedgerAccountNumber",
 					"Description": "The unique identifier of a Ledger Account.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "LedgerAccountNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -505,15 +501,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "LedgerAccountNumber"
 					}
 				},
 				{
 					"Name": "NaicsNationalIndustryCode",
 					"Description": "The unique identifier of a NAICS National Industry Code.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "NaicsNationalIndustryCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -523,15 +519,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "NaicsNationalIndustryCode"
 					}
 				},
 				{
 					"Name": "SicIndustryCode",
 					"Description": "The unique identifier of the SIC Industry.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "SicIndustryCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -541,15 +537,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "SicIndustryCode"
 					}
 				},
 				{
 					"Name": "AnzsicClassCode",
 					"Description": "The unique identifier of an ANZSIC Class.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "AnzsicClassCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -559,15 +555,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "AnzsicClassCode"
 					}
 				},
 				{
 					"Name": "IsoCurrencyCode",
 					"Description": "The ISO 4217 currency code.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "IsoCurrencyCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -576,15 +572,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "IsoCurrencyCode"
 					}
 				},
 				{
 					"Name": "PartyId",
 					"Description": "The unique identifier of a Party.",
-					"BaseAttributeReference": {
-						"Entity": "Vendor.cdm.json/Vendor",
-						"Name": "PartyId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "long",
 						"IsComplexType": false,
@@ -592,6 +588,10 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "long"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Vendor.cdm.json/Vendor",
+						"Name": "PartyId"
 					}
 				}
 			],
@@ -601,7 +601,7 @@
 				"FormatType": "csv",
 				"SerializeLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
 				"Properties": {
-					"path": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net//Banking_9zk/Vendor",
+					"path": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net/Banking_9zk/Vendor",
 					"delimiter": ",",
 					"multiLine": "false",
 					"firstRowAsHeader": "false",
@@ -614,7 +614,7 @@
 			},
 			"Source": {
 				"Provider": "ADLS",
-				"Location": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net//Banking_9zk/Vendor",
+				"Location": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net/Banking_9zk/Vendor",
 				"Properties": {
 					"LinkedServiceName": "glzgua4dkyo4exrwpocws1-WorkspaceDefaultStorage",
 					"LocationSetToDatabaseDefault": true
@@ -633,8 +633,7 @@
 			"Description": "A supplier of products, goods or services.",
 			"DisplayFolderInfo": "{\"name\":\"Vendor\",\"colorCode\":\"\"}",
 			"PrimaryKeys": "VendorId",
-			"spark.sql.sources.provider": "csv",
-			"sql:IsAppendOnly": false
+			"spark.sql.sources.provider": "csv"
 		},
 		"Retention": 0,
 		"Temporary": false,

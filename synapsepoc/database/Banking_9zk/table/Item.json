@@ -16,10 +16,6 @@
 				{
 					"Name": "ItemSku",
 					"Description": "The Stock Keeping Unit identifier, which is typically used for inventory-related activities.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemSku"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -28,15 +24,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemSku"
 					}
 				},
 				{
 					"Name": "ItemName",
 					"Description": "The name of the Item.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemName"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -45,15 +41,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemName"
 					}
 				},
 				{
 					"Name": "ItemDescription",
 					"Description": "The description of the Item.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemDescription"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -62,15 +58,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemDescription"
 					}
 				},
 				{
 					"Name": "InformationLabelText",
 					"Description": "The label text that identifies the care, use, preparation and handling of the product.\n\nExamples:\n\n- \"Keep out of direct sunlight…\"\n- \"Keep out of reach of children…\"",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "InformationLabelText"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -79,15 +75,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "InformationLabelText"
 					}
 				},
 				{
 					"Name": "DescriptiveLabelText",
 					"Description": "The label text that describes significant characteristics and benefits.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "DescriptiveLabelText"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -96,15 +92,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "DescriptiveLabelText"
 					}
 				},
 				{
 					"Name": "WarningInformationText",
 					"Description": "The text of the warning label, if any, appearing upon the product.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "WarningInformationText"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -113,15 +109,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "WarningInformationText"
 					}
 				},
 				{
 					"Name": "GradeLabelText",
 					"Description": "The label text that identifies product quality with letters, number or conditions.\n\nExamples:\n\n-  Grade A\n-  Prime\n-  #1",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "GradeLabelText"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -130,15 +126,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "GradeLabelText"
 					}
 				},
 				{
 					"Name": "UniversalProductCode",
 					"Description": "A system that identifies products by type and by manufacturer.  \n\nA UPC consists of twelve (12) digits.  Six (6) indicate the Manufacturer and six (6) digits describe the product.\n\nUPCs appear on product packages as bar codes, which are graphic symbols that are read by optical scanner devices.   \n\nUPCs are assigned by the Uniform Code Council of Dayton, Ohio.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "UniversalProductCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -148,15 +144,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "UniversalProductCode"
 					}
 				},
 				{
 					"Name": "EuropeanArticleNumber",
 					"Description": "A 13 digit barcoding standard which is a superset of the original 12-digit Universal Product Code (UPC).\n\naka International Article Number (abbreviation of EAN retained)",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "EuropeanArticleNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -166,15 +162,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "EuropeanArticleNumber"
 					}
 				},
 				{
 					"Name": "GlobalTradeItemNumber",
 					"Description": "The Global Trade Item Number (GTIN) is an identifier for trade items that was developed by GS1.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "GlobalTradeItemNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -184,15 +180,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "GlobalTradeItemNumber"
 					}
 				},
 				{
 					"Name": "ItemElectronicProductCode",
 					"Description": "EPC is the RFID version of the UPC barcode. \nEPC is intended to be used for specific product identification. However, EPC goes beyond UPC by not only identifying the product as an SKU, but also providing access to additional data about the origin and history of the specific units. \nThe EPC tag itself identifies the manufacturer, product, version, and serial number. It's the serial number that takes EPC to the next level. \nThis is the key to data related to specific lots/batches as well as potentially tracking the specific unit's history as it moves through the supply chain.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemElectronicProductCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -202,15 +198,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemElectronicProductCode"
 					}
 				},
 				{
 					"Name": "ComponentPartIdentifier",
 					"Description": "The Component / Part Identifier (CPID) is used to identify components or parts that are used in the assembly of a larger item. The CPID is part of the GS1 system of standards.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ComponentPartIdentifier"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -219,15 +215,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ComponentPartIdentifier"
 					}
 				},
 				{
 					"Name": "PluCode",
 					"Description": "PLU Codes are typically assigned to fresh produce but can also be assigned to other items as well.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "PluCode"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -237,15 +233,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "PluCode"
 					}
 				},
 				{
 					"Name": "EngineeringReferenceNumber",
 					"Description": "The number used by manufacturing or engineering when referencing the Product.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "EngineeringReferenceNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -253,15 +249,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "EngineeringReferenceNumber"
 					}
 				},
 				{
 					"Name": "CopyrightNumber",
 					"Description": "The number of the copyright granted.\n\nA copyright is legal protection given to a work so that it can only be published or sold by the copyright holder.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "CopyrightNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -270,15 +266,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "CopyrightNumber"
 					}
 				},
 				{
 					"Name": "UlControlNumber",
 					"Description": "Any unit that connects to a source greater than 30 volts rms must be certified by Underwriter's Laboratories (UL) if it will be sold in the United States.\n\nThe UL control number identifies the manufacturer and certification classification.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "UlControlNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -287,15 +283,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "UlControlNumber"
 					}
 				},
 				{
 					"Name": "UlFileNumber",
 					"Description": "The UL file number indicates where report files can be found at Underwriters Laboratories.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "UlFileNumber"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -304,15 +300,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "UlFileNumber"
 					}
 				},
 				{
 					"Name": "ItemNote",
 					"Description": "A note, comment or additional information regarding the item.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemNote"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -321,15 +317,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemNote"
 					}
 				},
 				{
 					"Name": "ProductId",
 					"Description": "The unique identifier of a Product.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ProductId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "long",
 						"IsComplexType": false,
@@ -337,15 +333,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "long"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ProductId"
 					}
 				},
 				{
 					"Name": "AssetIndicator",
 					"Description": "Indicates whether the item becomes an asset once the item is put into service.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "AssetIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -353,15 +349,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "AssetIndicator"
 					}
 				},
 				{
 					"Name": "ItemLength",
 					"Description": "The standard item length.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemLength"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -371,15 +367,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemLength"
 					}
 				},
 				{
 					"Name": "ItemWidth",
 					"Description": "The standard item width.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemWidth"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -389,15 +385,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemWidth"
 					}
 				},
 				{
 					"Name": "ItemHeight",
 					"Description": "The standard item height.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemHeight"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -407,15 +403,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemHeight"
 					}
 				},
 				{
 					"Name": "LwhUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "LwhUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -423,15 +419,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "LwhUomId"
 					}
 				},
 				{
 					"Name": "ItemVolume",
 					"Description": "The standard item volume.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemVolume"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -441,15 +437,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemVolume"
 					}
 				},
 				{
 					"Name": "ItemVolumeUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemVolumeUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -457,15 +453,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemVolumeUomId"
 					}
 				},
 				{
 					"Name": "ItemWeight",
 					"Description": "The standard item weight.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemWeight"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -475,15 +471,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemWeight"
 					}
 				},
 				{
 					"Name": "WeightUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "WeightUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -491,15 +487,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "WeightUomId"
 					}
 				},
 				{
 					"Name": "ShelfLifeDays",
 					"Description": "The amount of time that a product can be stored before it can no longer be safely consumed or sold.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ShelfLifeDays"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -507,15 +503,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ShelfLifeDays"
 					}
 				},
 				{
 					"Name": "MinimumStorageTemperature",
 					"Description": "The minimum temperature at which the item may be stored.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MinimumStorageTemperature"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -525,15 +521,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MinimumStorageTemperature"
 					}
 				},
 				{
 					"Name": "MinimumStorageTemperatureUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MinimumStorageTemperatureUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -541,15 +537,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MinimumStorageTemperatureUomId"
 					}
 				},
 				{
 					"Name": "MaximumStorageTemperature",
 					"Description": "The maximum temperature at which the item may be stored.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MaximumStorageTemperature"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -559,15 +555,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MaximumStorageTemperature"
 					}
 				},
 				{
 					"Name": "MaximumStorageTemperatureUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MaximumStorageTemperatureUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -575,15 +571,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MaximumStorageTemperatureUomId"
 					}
 				},
 				{
 					"Name": "MinimumStorageHumidity",
 					"Description": "The minimum storage humidity that the item may be stored at.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MinimumStorageHumidity"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -593,15 +589,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MinimumStorageHumidity"
 					}
 				},
 				{
 					"Name": "MinimumStorageHumidityUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MinimumStorageHumidityUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -609,15 +605,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MinimumStorageHumidityUomId"
 					}
 				},
 				{
 					"Name": "MaximumStorageHumidity",
 					"Description": "The maximum storage humidity that the item may be stored at.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MaximumStorageHumidity"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -627,15 +623,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MaximumStorageHumidity"
 					}
 				},
 				{
 					"Name": "MaximumStorageHumidityUomId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MaximumStorageHumidityUomId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -643,15 +639,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MaximumStorageHumidityUomId"
 					}
 				},
 				{
 					"Name": "StandardQuantityUnitOfMeasureId",
 					"Description": "The unique identifier of a Unit Of Measure.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StandardQuantityUnitOfMeasureId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -659,15 +655,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StandardQuantityUnitOfMeasureId"
 					}
 				},
 				{
 					"Name": "StandardCost",
 					"Description": "The estimated or calculated cost to manufacture or produce the Product. Often used for calculating the value of the Item for inventory purposes.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StandardCost"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -677,15 +673,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StandardCost"
 					}
 				},
 				{
 					"Name": "ListPrice",
 					"Description": "The standard retail price of the Product before the application of any discount.\n\nThis is the price that normally appears in catalogs, on purchase orders and invoices.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ListPrice"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -695,15 +691,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ListPrice"
 					}
 				},
 				{
 					"Name": "StandardWholesalePrice",
 					"Description": "The standard, or default, price charged wholesalers for the Product.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StandardWholesalePrice"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -713,15 +709,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StandardWholesalePrice"
 					}
 				},
 				{
 					"Name": "TargetReturnPrice",
 					"Description": "A price established as part of a strategy to yield a specific return on investment.\n\nTarget-Return Price = (unit cost) + ((desired return)*(invested capital))/unit sales\n\nThe Target-Return Price ignores competitor's pricing and price elasticity.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "TargetReturnPrice"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -731,15 +727,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "TargetReturnPrice"
 					}
 				},
 				{
 					"Name": "MarginAmount",
 					"Description": "The difference between the price of a product and the cost to produce it.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MarginAmount"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -749,15 +745,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MarginAmount"
 					}
 				},
 				{
 					"Name": "VerbalBidsRequiredForMinimumAmountRange",
 					"Description": "A flag or indicator denoting the verbal bids are valid for the associated minimum/maximum quantity of Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "VerbalBidsRequiredForMinimumAmountRange"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -767,15 +763,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "VerbalBidsRequiredForMinimumAmountRange"
 					}
 				},
 				{
 					"Name": "VerbalBidsRequiredForMaximumAmountRange",
 					"Description": "A flag or indicator denoting the verbal bids are valid for the associated minimum/maximum quantity of Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "VerbalBidsRequiredForMaximumAmountRange"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -785,15 +781,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "VerbalBidsRequiredForMaximumAmountRange"
 					}
 				},
 				{
 					"Name": "WrittenBidsRequiredForMinimumAmountRange",
 					"Description": "A flag or indicator denoting the written bids are valid for the associated minimum/maximum quantity of Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "WrittenBidsRequiredForMinimumAmountRange"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -803,15 +799,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "WrittenBidsRequiredForMinimumAmountRange"
 					}
 				},
 				{
 					"Name": "WrittenBidsRequiredForMaximumAmountRange",
 					"Description": "A flag or indicator denoting the written bids are valid for the associated minimum/maximum quantity of Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "WrittenBidsRequiredForMaximumAmountRange"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -821,15 +817,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "WrittenBidsRequiredForMaximumAmountRange"
 					}
 				},
 				{
 					"Name": "CompetitiveBidsRequiredForMinimumAmountRange",
 					"Description": "A flag or indicator denoting the competitive bids are required for the associated minimum/maximum quantity of Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "CompetitiveBidsRequiredForMinimumAmountRange"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -839,15 +835,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "CompetitiveBidsRequiredForMinimumAmountRange"
 					}
 				},
 				{
 					"Name": "CompetitiveBidsRequiredForMaximumAmountRange",
 					"Description": "A flag or indicator denoting the competitive bids are required for the associated minimum/maximum quantity of Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "CompetitiveBidsRequiredForMaximumAmountRange"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -857,15 +853,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "CompetitiveBidsRequiredForMaximumAmountRange"
 					}
 				},
 				{
 					"Name": "LotSizeQuantity",
 					"Description": "The quantity of Item to be purchased or manufactured.  \n\nThe objective is to spread setup and ordering costs over a large number of pieces (Items) to reduce unit costs.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "LotSizeQuantity"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -875,15 +871,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "LotSizeQuantity"
 					}
 				},
 				{
 					"Name": "MinimumOrderQuantity",
 					"Description": "The smallest order quantity which, in principle, is allowed.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MinimumOrderQuantity"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -893,15 +889,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MinimumOrderQuantity"
 					}
 				},
 				{
 					"Name": "MinimumStockQuantity",
 					"Description": "A control limit within a stock control system which could indicate the point at which an order should be placed, or indicate if stocks are too low, for a specific item.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "MinimumStockQuantity"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -911,15 +907,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "MinimumStockQuantity"
 					}
 				},
 				{
 					"Name": "ActiveItemInventoryPeriodNumberOfDays",
 					"Description": "The number of days that the organization defines as the 'active item period'.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ActiveItemInventoryPeriodNumberOfDays"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -927,15 +923,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ActiveItemInventoryPeriodNumberOfDays"
 					}
 				},
 				{
 					"Name": "PutAwayRulesStatement",
 					"Description": "The internal rules and procedures for positioning stock in a warehouse or store after goods inward processing.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "PutAwayRulesStatement"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -944,15 +940,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "PutAwayRulesStatement"
 					}
 				},
 				{
 					"Name": "EurobrandIndicator",
 					"Description": "Indicates that the Product carries a brand name that is marketed similarly throughout Europe.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "EurobrandIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -960,15 +956,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "EurobrandIndicator"
 					}
 				},
 				{
 					"Name": "StoreMixedIndicator",
 					"Description": "Determines whether or not the Item may be stored in a location that already contains other Items.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StoreMixedIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -976,15 +972,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StoreMixedIndicator"
 					}
 				},
 				{
 					"Name": "StoreToExistingItemIndicator",
 					"Description": "Determines whether or not the Item may be stored in a location that already contains a different lot of the same item.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StoreToExistingItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -992,15 +988,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StoreToExistingItemIndicator"
 					}
 				},
 				{
 					"Name": "StoreToExistingLotIndicator",
 					"Description": "Determines whether or not an Item may be stored in a location that already contains the same lot of the same Item.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StoreToExistingLotIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1008,15 +1004,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StoreToExistingLotIndicator"
 					}
 				},
 				{
 					"Name": "SoleSourceItemIndicator",
 					"Description": "Indicates that the Item is purchased from just one vendor.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "SoleSourceItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1024,15 +1020,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "SoleSourceItemIndicator"
 					}
 				},
 				{
 					"Name": "SoleSourceSupplierName",
 					"Description": "The single vendor from whom the Item is purchased.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "SoleSourceSupplierName"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "string",
 						"IsComplexType": false,
@@ -1041,15 +1037,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "SoleSourceSupplierName"
 					}
 				},
 				{
 					"Name": "LifedItemIndicator",
 					"Description": "A consumable or repairable product for which the manufacturer has specified a finite life in either some form of time period or in a number of cycles or activities.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "LifedItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1057,15 +1053,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "LifedItemIndicator"
 					}
 				},
 				{
 					"Name": "InStockOutOfStockIndicator",
 					"Description": "The condition existing when a supply requisition cannot be filled from stock. Stock-out Rate-The number of stock-outs per hundred line items picked.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "InStockOutOfStockIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1073,15 +1069,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "InStockOutOfStockIndicator"
 					}
 				},
 				{
 					"Name": "HazardousMaterialIndicator",
 					"Description": "Any substance that has been determined by the Occupational Safety and Health Administration (OSHA) as having the potential to cause a physical or health hazard. This is based on its potential for burning, exploding, or otherwise causing an injury to workers or the likelihood that exposure will result in acute or chronic health effects among employees",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "HazardousMaterialIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1089,15 +1085,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "HazardousMaterialIndicator"
 					}
 				},
 				{
 					"Name": "ActiveInventoryItemIndicator",
 					"Description": "Any item or element of inventory which has been used or sold within a given period.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ActiveInventoryItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1105,15 +1101,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ActiveInventoryItemIndicator"
 					}
 				},
 				{
 					"Name": "EligibleForExportIndicator",
 					"Description": "Indicates that the Product is eligible for export to foreign countries without restriction.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "EligibleForExportIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1121,15 +1117,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "EligibleForExportIndicator"
 					}
 				},
 				{
 					"Name": "CoManagedInventoryItemIndicator",
 					"Description": "A support arrangement similar to Vendor Managed Inventory but where replacement orders for the vendor-owned stock are agreed by the user prior to delivery",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "CoManagedInventoryItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1137,15 +1133,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "CoManagedInventoryItemIndicator"
 					}
 				},
 				{
 					"Name": "RotableItemIndicator",
 					"Description": "An repairable inventory item that can be repeatedly restored to a fully serviceable condition and re-used over the normal life cycle of the parent equipment to which it is related. Such items have a repair lead time as well as a procurement lead time and normally have a serial number that is retained throughout the rotable life regardless of the extent of replacement of its component parts.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "RotableItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1153,15 +1149,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "RotableItemIndicator"
 					}
 				},
 				{
 					"Name": "ConsignmentItemIndicator",
 					"Description": "Consignments can be used to keep track of inventory that you don't own, but at the time you sell it, you must pay for it.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ConsignmentItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1169,15 +1165,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ConsignmentItemIndicator"
 					}
 				},
 				{
 					"Name": "SerializedItemIndicator",
 					"Description": "Indicates that the Item is serialized.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "SerializedItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1185,15 +1181,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "SerializedItemIndicator"
 					}
 				},
 				{
 					"Name": "TrackSerialNumberIndicator",
 					"Description": "Indicates that the Item must be tracked by Serial Number.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "TrackSerialNumberIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1201,15 +1197,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "TrackSerialNumberIndicator"
 					}
 				},
 				{
 					"Name": "RepairableItemIndicator",
 					"Description": "An inventory item that is not normally consumed in use but one which will be repaired and re-used as part of the normal stock policy for that item. Such items have a repair lead-time as well as a procurement lead-time.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "RepairableItemIndicator"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "boolean",
 						"IsComplexType": false,
@@ -1217,15 +1213,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "boolean"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "RepairableItemIndicator"
 					}
 				},
 				{
 					"Name": "RepairPeriod",
 					"Description": "The total out of service time, including transit time, from when a repairable component becomes unfit for use until the time it is returned to stock and is available for further use.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "RepairPeriod"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "decimal",
 						"IsComplexType": false,
@@ -1235,15 +1231,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "decimal"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "RepairPeriod"
 					}
 				},
 				{
 					"Name": "ManufacturerId",
 					"Description": "The unique identifier of a Manufacturer.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ManufacturerId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1251,15 +1247,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ManufacturerId"
 					}
 				},
 				{
 					"Name": "ItemIdentificationMethodId",
 					"Description": "The unique identifier of the Item Identification Method.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemIdentificationMethodId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1267,15 +1263,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemIdentificationMethodId"
 					}
 				},
 				{
 					"Name": "CommodityTypeId",
 					"Description": "The unique identifier of a Commodity Type.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "CommodityTypeId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1283,15 +1279,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "CommodityTypeId"
 					}
 				},
 				{
 					"Name": "ItemSafetyClassificationId",
 					"Description": "The unique identifier of an Item Safety Classification.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemSafetyClassificationId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1299,15 +1295,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemSafetyClassificationId"
 					}
 				},
 				{
 					"Name": "StandardStorageUnitTypeId",
 					"Description": "The unique identifier of the Standard Storage Unit Type.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "StandardStorageUnitTypeId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1315,15 +1311,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "StandardStorageUnitTypeId"
 					}
 				},
 				{
 					"Name": "SecurityLevelId",
 					"Description": "The unique identifier of the Item Security Level.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "SecurityLevelId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1331,15 +1327,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "SecurityLevelId"
 					}
 				},
 				{
 					"Name": "VendorId",
 					"Description": "The unique identifier of a Vendor.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "VendorId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "long",
 						"IsComplexType": false,
@@ -1347,15 +1343,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "long"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "VendorId"
 					}
 				},
 				{
 					"Name": "FamilyGroupId",
 					"Description": "The unique identifier of a Family Group.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "FamilyGroupId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1363,15 +1359,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "FamilyGroupId"
 					}
 				},
 				{
 					"Name": "HazardSeverityCategoryId",
 					"Description": "The unique identifier of a Hazard Severity Category.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "HazardSeverityCategoryId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1379,15 +1375,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "HazardSeverityCategoryId"
 					}
 				},
 				{
 					"Name": "DepreciationMethodId",
 					"Description": "The unique identifier of the Depreciation Method.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "DepreciationMethodId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1395,15 +1391,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "DepreciationMethodId"
 					}
 				},
 				{
 					"Name": "ItemTypeId",
 					"Description": "The unique identifier of an Item Type.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "ItemTypeId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1411,15 +1407,15 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "ItemTypeId"
 					}
 				},
 				{
 					"Name": "BarCodeId",
 					"Description": "The unique identifier of a Bar Code.",
-					"BaseAttributeReference": {
-						"Entity": "Item.cdm.json/Item",
-						"Name": "BarCodeId"
-					},
 					"OriginDataTypeName": {
 						"TypeName": "integer",
 						"IsComplexType": false,
@@ -1427,6 +1423,10 @@
 						"Properties": {
 							"HIVE_TYPE_STRING": "integer"
 						}
+					},
+					"BaseAttributeReference": {
+						"Entity": "Item.cdm.json/Item",
+						"Name": "BarCodeId"
 					}
 				}
 			],
@@ -1436,7 +1436,7 @@
 				"FormatType": "csv",
 				"SerializeLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
 				"Properties": {
-					"path": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net//Banking_9zk/Item",
+					"path": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net/Banking_9zk/Item",
 					"delimiter": ",",
 					"multiLine": "false",
 					"firstRowAsHeader": "false",
@@ -1449,7 +1449,7 @@
 			},
 			"Source": {
 				"Provider": "ADLS",
-				"Location": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net//Banking_9zk/Item",
+				"Location": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net/Banking_9zk/Item",
 				"Properties": {
 					"LinkedServiceName": "glzgua4dkyo4exrwpocws1-WorkspaceDefaultStorage",
 					"LocationSetToDatabaseDefault": true
@@ -1468,8 +1468,7 @@
 			"Description": "Something that is inventoried.\n\nA SKU, Stock keeping unit, refers to a specific item in a specific unit of measure.  \n\nFor example, if you distributed a specific chemical in both gallon containers and barrels then you would maintain the inventory as two SKUs even though they are both the same specific chemical.\n\nItems are classified as follows:\n\n- Tool\n- Product\n- Raw Material\n- Kit\n- Replacement Part\n- Unit\n- Miscellaneous Item",
 			"DisplayFolderInfo": "{\"name\":\"Inventory\",\"colorCode\":\"\"}",
 			"PrimaryKeys": "ItemSku",
-			"spark.sql.sources.provider": "csv",
-			"sql:IsAppendOnly": false
+			"spark.sql.sources.provider": "csv"
 		},
 		"Retention": 0,
 		"Temporary": false,
