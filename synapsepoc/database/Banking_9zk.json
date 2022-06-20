@@ -1,0 +1,24 @@
+{
+	"name": "Banking_9zk",
+	"properties": {
+		"Name": "Banking_9zk",
+		"EntityType": "DATABASE",
+		"Description": "",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Banking\",\"Version\":\"1.0.0\"}}}",
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://dlsglzpocfs1@glzgua4dkyo4exrwpoc.dfs.core.windows.net/Banking_9zk",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "glzgua4dkyo4exrwpocws1-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
